@@ -27,8 +27,6 @@ namespace OnlineBookStore.Models
 
         public System.Data.Entity.DbSet<OnlineBookStore.Models.Customer> Customers { get; set; }
 
-        public System.Data.Entity.DbSet<OnlineBookStore.Models.Cart> Carts { get; set; }
-
         public System.Data.Entity.DbSet<OnlineBookStore.Models.Order> Orders { get; set; }
 
         public System.Data.Entity.DbSet<OnlineBookStore.Models.OrderDetail> OrderDetails { get; set; }
